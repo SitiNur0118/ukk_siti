@@ -8,40 +8,9 @@
     <title>SMKN 4 TASIKMALAYA</title>
 </head>
 <body>
-    <!-- SECTION NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid fixed-top bg-white">
-    <a class="navbar-brand" href="#">
-        <img src="image/logo.jpg" alt="" width="60" height="60">SMKN4 TASIKMALAYA </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Beranda</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Profil
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="identitas.html">Identitas Sekolah</a></li>
-            <li><a class="dropdown-item" href="visimisi.html">Visi&Misi</a></li>
-            <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-            <li><a class="dropdown-item" href="kepsek.html">Kepala Sekolah</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ekstrakulikuler.html">Ekstrakulikuler</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="galeri.html">Galeri</a>
-        </li>
-    </div>
-  </div>
-</nav>
-<!-- TUTUP NAVBAR -->
+    
+    <?php include 'navbar.php';?>
+
 
 <!-- SECTION ESKUL -->
      <section>
@@ -50,7 +19,7 @@
                 <div class="col-lg-12">
                     <div class="card border-0">
                         <h3 class="mb-0">Ekstrakurrikuler</h3>
-                        <h3 class="text-primary ">Siswa</h3>
+                        <h3 class="text-primary">Siswa</h3>
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="card shadow rounded m-3 p-4 d-flex align-items-center">

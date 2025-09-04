@@ -10,41 +10,9 @@
 </head>
 
 <body>
-  <!-- SECTION NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid fixed-top bg-white">
-      <a class="navbar-brand" href="#">
-        <img src="image/logo.jpg" alt="" width="60" height="60">SMKN4 TASIKMALAYA </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Beranda</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Profil
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="identitas.html">Identitas Sekolah</a></li>
-              <li><a class="dropdown-item" href="visimisi.html">Visi&Misi</a></li>
-              <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-              <li><a class="dropdown-item" href="kepsek.html">Kepala Sekolah</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ekstrakulikuler.html">Ekstrakulikuler</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galeri.html">Galeri</a>
-          </li>
-      </div>
-    </div>
-  </nav>
-  <!-- TUTUP NAVBAR -->
+ 
+  <?php include 'navbar.php';?>
+
 
   <!-- SECTION CAROUSEL -->
   <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -135,7 +103,7 @@
     <div class="container my-5">
   <div class="row g-4 align-items-center ">
 
-    <!-- Foto Kepala Sekolah -->
+    <!-- FOTO KEPALA SEKOLAH-->
       <h3 class="fw-bold">Sambutan <br><span class="text-primary">Kepala Sekolah</span></h3>
     <div class="col-md-3 text-center">
         <div class="p-3 rounded shadow" style="background-color: rgb(15, 102, 136);" href="#">
@@ -143,7 +111,7 @@
         </div>
     </div>
 
-    <!-- Teks Sambutan -->
+    <!-- Teks SAMBUTAN -->
     <div class="col-md-8 mt-4 mt-md-0">
       <h4 class="fw-bold">Kurniawan S.Pd, M.Pd</h4>
       <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
@@ -237,7 +205,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="my-4">Berita</h2>
+         <h3 class="mb-0">Berita</h3>
+          <h3 class="text-primary">Terkini</h3>
           <div class="row">
             <div class="col-lg-6">
               <div class="card">
@@ -267,70 +236,7 @@
           <br>
           <!-- TUTUP SECTION BERITA -->
 
-          <!-- SECTION FUTER -->
-          <div class="row pt-5" style="background-color: rgb(15, 102, 136);">
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-lg-5">
-                  <div class="card border-0">
-                    <div class="card-body">
-                      <h2>Alamat</h2>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213163631709!2d108.25189907588084!3d-7.329939972091708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755673543639!5m2!1sid!2sid"
-                        style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <div class="card border-0">
-                    <div class="card-body">
-                      <h2>Kontak</h2>
-                      <hr>
-                      <p class="bi bi-telephone m-1"> +62265312059</p>
-                      <p class="bi bi-envelope"> info@smkn4-tsm.sch.id</p>
-                      <hr>
-                      <div class="d flex gap-3">
-                        <a href="https://www.facebook.com/4smkn/" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-facebook"></i></i></a>
-                        <a href="https://www.instagram.com/smkn4tsmofficial/?igsh=N3k1MTlyeXo4cW9q#" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.tiktok.com/@smkn4tasikmalaya?is_from_webapp=1&sender_device=pc" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-tiktok"></i></i></a>
-                        <a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-youtube"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-3">
-                  <div class="card border-0">
-                    <div class="card-body">
-                      <h2>Link Lainya</h2>
-                      <p><a href="https://kemendikdasmen.go.id/">Kemdikbud</a></p>
-                      <p><a href="">Dapodikdasmen</a></p>
-                      <p><a href="">PSMK</a></p>
-                      <p><a href="https://disdik.jabarprov.go.id/">Disdik jabar</a></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-center text-white">
-                  <hr>
-                  <small>© 2025. SMK Negeri 4 Tasikmalaya.</small>
-                  <br>
-                  <small>All rights reserved.</small>
-                  <hr>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-        </div>
-
-
-
+            <?php include 'footer.php';?>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
