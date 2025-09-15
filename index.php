@@ -208,10 +208,10 @@
          <h3 class="mb-0">Berita</h3>
           <h3 class="text-primary">Terkini</h3>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-4">
               <div class="card">
                 <div class="card-header">
-                  <img src="image/foto1.jpg" alt="" width="600" height="300">
+                  <img src="image/foto1.jpg" alt="" width="385" height="200">
                 </div>
                 <div class="card-body">
                   <h3>PELATIHAN SEFETY RIDING SMKN4 TASIKMALAYA</h3>
@@ -220,14 +220,26 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
               <div class="card">
                 <div class="card-header">
-                  <img src="image/foto2.jpg" alt="" width="600" height="300">
+                  <img src="image/foto2.jpg" alt="" width="385" height="200">
                 </div>
                 <div class="card-body">
-                  <h3>SMKN 4 Tasikmalaya Koneksikan Iduka dengan Pencari Kerja</h3>
+                  <h3>Koneksikan Iduka dengan Pencari Kerja</h3>
                   <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja/#google_vignette">Baca
+                    selengkapnya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">
+                  <img src="image/expo.jpg" alt="" width="385" height="200">
+                </div>
+                <div class="card-body">
+                  <h3> Expo Creanova SMKN 4 Tasikmalaya </h3>
+                  <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/#google_vignette">Baca
                     selengkapnya</a>
                 </div>
               </div>

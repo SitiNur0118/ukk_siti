@@ -1,8 +1,8 @@
-<div class="row pt-5" style="background-color: rgb(15, 102, 136);">
+ <div class="row pt-5" style="background-color: rgb(15, 102, 136);">
             <div class="col-lg-12">
               <div class="row">
                 <div class="col-lg-5">
-                  <div class="card border-0">
+                  <div class="text-white">
                     <div class="card-body">
                       <h2>Alamat</h2>
                       <iframe
@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="col-lg-4">
-                  <div class="card border-0">
+                  <div class="text-white">
                     <div class="card-body">
                       <h2>Kontak</h2>
                       <hr>
@@ -22,23 +22,23 @@
                       <p class="bi bi-envelope"> info@smkn4-tsm.sch.id</p>
                       <hr>
                       <div class="d flex gap-3">
-                        <a href="https://www.facebook.com/4smkn/" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-facebook"></i></i></a>
-                        <a href="https://www.instagram.com/smkn4tsmofficial/?igsh=N3k1MTlyeXo4cW9q#" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.tiktok.com/@smkn4tasikmalaya?is_from_webapp=1&sender_device=pc" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-tiktok"></i></i></a>
-                        <a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704" target="_blank" class="text-decoration-none text-dark"><i class="bi bi-youtube"></i></a>
+                        <a href="https://www.facebook.com/4smkn/" target="_blank" class="text-decoration-none text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smkn4tsmofficial/?igsh=N3k1MTlyeXo4cW9q#" target="_blank" class="text-decoration-none text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@smkn4tasikmalaya?is_from_webapp=1&sender_device=pc" target="_blank" class="text-decoration-none text-white"><i class="bi bi-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704" target="_blank" class="text-decoration-none text-white"><i class="bi bi-youtube"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div class="col-lg-3">
-                  <div class="card border-0">
+                  <div class="text-white">
                     <div class="card-body">
                       <h2>Link Lainya</h2>
-                      <p><a href="https://kemendikdasmen.go.id/">Kemdikbud</a></p>
-                      <p><a href="">Dapodikdasmen</a></p>
-                      <p><a href="">PSMK</a></p>
-                      <p><a href="https://disdik.jabarprov.go.id/">Disdik jabar</a></p>
+                      <p><a href="https://kemendikdasmen.go.id/" class="text-white">Kemdikbud</a></p>
+                      <p><a href="" class="text-white">Dapodikdasmen</a></p>
+                      <p><a href="" class="text-white">PSMK</a></p>
+                      <p><a href="https://disdik.jabarprov.go.id/" class="text-white">Disdik jabar</a></p>
                     </div>
                   </div>
                 </div>
@@ -51,10 +51,4 @@
                 </div>
               </div>
             </div>
-          </div>
-
-
-
-
-
-        </div>
+</div>
