@@ -36,8 +36,8 @@
                     <div class="card-body">
                       <h2>Link Lainya</h2>
                       <p><a href="https://kemendikdasmen.go.id/" class="text-white">Kemdikbud</a></p>
-                      <p><a href="" class="text-white">Dapodikdasmen</a></p>
-                      <p><a href="" class="text-white">PSMK</a></p>
+                      <p><a href="https://dapo.kemendikdasmen.go.id/" class="text-white">Dapodikdasmen</a></p>
+                      <p><a href="https://psmk.jabarprov.go.id/" class="text-white">PSMK</a></p>
                       <p><a href="https://disdik.jabarprov.go.id/" class="text-white">Disdik jabar</a></p>
                     </div>
                   </div>

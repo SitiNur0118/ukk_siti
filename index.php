@@ -26,8 +26,8 @@
       <div class="carousel-item active" data-bs-interval="10000">
         <img src="image/foto7.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h5></h5>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
@@ -60,10 +60,12 @@
 
   <!-- SECTION STATISTIK -->
   <div class="row m-5">
+  <div class="row text-center g-3">
+
     <div class="col-md-3">
       <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
         <div class="card-body">
-          <i class="bi bi-person-video3 display-3"></i>
+          <i class="bi bi-person-video3 display-4"></i>
           <h4 class="mt-3">100 orang</h4>
           <p>guru / pendidik</p>
         </div>
@@ -72,7 +74,7 @@
     <div class="col-md-3">
       <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
         <div class="card-body">
-          <i class="bi bi-people-fill display-3"></i>
+          <i class="bi bi-people-fill display-4"></i>
           <h4 class="mt-3">1500 orang</h4>
           <p>peserta didik</p>
         </div>
@@ -81,7 +83,7 @@
     <div class="col-md-3">
       <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
         <div class="card-body">
-          <i class="bi bi-person-badge-fill display-3"></i>
+          <i class="bi bi-person-badge-fill display-4"></i>
           <h4 class="mt-3">10 orang</h4>
           <p>Staf TU</p>
         </div>
@@ -96,6 +98,8 @@
         </div>
       </div>
     </div>
+  </div>
+  </div>
     <!-- TUTUP SECTION STATISTIK -->
 
 
@@ -207,6 +211,7 @@
         <div class="col-lg-12">
          <h3 class="mb-0">Berita</h3>
           <h3 class="text-primary">Terkini</h3>
+          <p>Berita terbaru, cerita inspiratif dan informasi terkini seputar kegiatan serta prestasi sekolah kami.</p>
           <div class="row">
             <div class="col-lg-4">
               <div class="card">
