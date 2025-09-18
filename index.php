@@ -114,8 +114,9 @@
         <div class="p-3 rounded shadow" style="background-color: rgb(15, 102, 136);" href="#">
           <img src="image/kepsek.jpg" alt="Kepala Sekolah" class="img-fluid rounded ">
         </div>
-      </div>
-
+    </div>
+     
+    
       <!-- Teks SAMBUTAN -->
       <div class="col-md-8 mt-4 mt-md-0">
         <h4 class="fw-bold">Kurniawan S.Pd, M.Pd</h4>
