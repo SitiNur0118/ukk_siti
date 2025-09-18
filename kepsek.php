@@ -14,11 +14,11 @@
 
 <!-- SECTION IDENTITAS -->
     <section>
-       <div class="container px-5 mt-3">
+       <div class="container pt-5 mt-3">
         <div class="row">
             <div class="col-lg-12 ">
                 <h3 class="mb-0 my-5 ">Identitas</h3>
-                <h3 class="text-info">Kepala Sekolah</h3>
+                <h3 class="text-primary">Kepala Sekolah</h3>
                 <div class="row ">
                     <div class="col-lg-12 d-flex justify-content-center ">
                         <div class="card border-0 mb-3" style="background-color: rgb(15, 102, 136);">

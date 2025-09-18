@@ -13,8 +13,8 @@
 
 <!-- SECTION SEJARAH -->
  <div class="container mt-5">
-        <div class="text-center mb-4">
-            <h2 class="text-primary">Sejarah Sekolah</h2>
+        <div class="text-center pt-5 my-5">
+            <h3 class="text-primary">Sejarah Sekolah</h3>
             <hr>
         </div>
 

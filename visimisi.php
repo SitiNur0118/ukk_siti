@@ -14,7 +14,7 @@
 
 <!-- SECTION VISI MISI -->
  <section>
-    <div class="container px-5 my-5">
+    <div class="container pt-5 my-5">
         <div class="row">
             <div class="co-lg-12">
                 <div class="row">

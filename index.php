@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./vendor/bs/bs.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">\
   <title>SMKN 4 TASIKMALAYA</title>
+
 </head>
 
 <body>
- 
-  <?php include 'navbar.php';?>
+
+  <?php include 'navbar.php'; ?>
 
 
   <!-- SECTION CAROUSEL -->
@@ -59,201 +60,140 @@
 
 
   <!-- SECTION STATISTIK -->
+
   <div class="row m-5">
-  <div class="row text-center g-3">
-
-    <div class="col-md-3">
-      <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
-        <div class="card-body">
-          <i class="bi bi-person-video3 display-4"></i>
-          <h4 class="mt-3">100 orang</h4>
-          <p>guru / pendidik</p>
+    <div class="row text-center g-3">
+      <div class="col-md-3">
+        <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
+          <div class="card-body">
+            <i class="bi bi-person-video3 display-4"></i>
+            <h4 class="mt-3">100 orang</h4>
+            <p>guru / pendidik</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
-        <div class="card-body">
-          <i class="bi bi-people-fill display-4"></i>
-          <h4 class="mt-3">1500 orang</h4>
-          <p>peserta didik</p>
+      <div class="col-md-3">
+        <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
+          <div class="card-body">
+            <i class="bi bi-people-fill display-4"></i>
+            <h4 class="mt-3">1500 orang</h4>
+            <p>peserta didik</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
-        <div class="card-body">
-          <i class="bi bi-person-badge-fill display-4"></i>
-          <h4 class="mt-3">10 orang</h4>
-          <p>Staf TU</p>
+      <div class="col-md-3">
+        <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
+          <div class="card-body">
+            <i class="bi bi-person-badge-fill display-4"></i>
+            <h4 class="mt-3">10 orang</h4>
+            <p>Staf TU</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
-        <div class="card-body">
-          <i class="bi bi-lightbulb-fill display-4"></i>
-          <h4 class="mt-3">5 </h4>
-          <p>pogram kealian</p>
+      <div class="col-md-3">
+        <div class="card text-white h-100" style="background-color: rgb(15, 102, 136);">
+          <div class="card-body">
+            <i class="bi bi-lightbulb-fill display-4"></i>
+            <h4 class="mt-3">5 </h4>
+            <p>pogram kealian</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
-    <!-- TUTUP SECTION STATISTIK -->
+  <!-- TUTUP SECTION STATISTIK -->
 
 
-    <!-- SECTION SAMBUTAN -->
-    <div class="container my-5">
-  <div class="row g-4 align-items-center ">
+  <!-- SECTION SAMBUTAN -->
+  <div class="container my-5">
+    <div class="row g-4 align-items-center ">
 
-    <!-- FOTO KEPALA SEKOLAH-->
+      <!-- FOTO KEPALA SEKOLAH-->
       <h3 class="fw-bold">Sambutan <br><span class="text-primary">Kepala Sekolah</span></h3>
-    <div class="col-md-3 text-center">
+      <div class="col-md-3 text-center">
         <div class="p-3 rounded shadow" style="background-color: rgb(15, 102, 136);" href="#">
-             <img src="image/kepsek.jpg" alt="Kepala Sekolah" class="img-fluid rounded ">
-        </div>
-    </div>
-
-    <!-- Teks SAMBUTAN -->
-    <div class="col-md-8 mt-4 mt-md-0">
-      <h4 class="fw-bold">Kurniawan S.Pd, M.Pd</h4>
-      <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
-      <p>
-        Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya.
-        Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini.
-        Kami berharap dengan adanya website di SMK Negeri 4 Tasikmalaya ini para pengunjung dapat mengenal lebih jauh
-        tentang sekolah kami sehingga dapat mempererat tali silaturahmi antara sekolah dengan masyarakat demi kemajuan kita bersama.
-      </p>
-      <p>
-        Tiada gading yang tak retak, website kami ini masih dalam proses pengembangan, masih banyak kekurangan yang harus kami perbaiki.
-        Kritik dan sarannya yang membangun sangat kami harapkan untuk pengembangan ke depan.
-      </p>
-      <p>
-        Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak yang tidak dapat disebutkan satu
-        persatu atas fasilitasnya yang telah diberikan semoga semua yang kita lakukan bermanfaat bagi masyarakat.
-      </p>
-      <p>Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
-    </div>
-
-  </div>
-</div>
-<!-- TUTUP SAMBUTAN -->
-
-
-<!-- SECTION JURUSAN -->
-    <section>
-      <div class="container px-5 mt-3">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card border-0">
-              <h3 class="mb-0">Konsentrasi</h3>
-              <h3 class="text-primary ">Keahlian</h3>
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="card shadow rounded m-3 p-4 d-flex align-items-center h-95">
-                    <img src="image/tkj.jpg" alt="" width="150" height="150">
-                    <div class="card-body  border-0 text-center">
-                      <h4 clas="text-center">TKJ</h4>
-                      <p>Teknik jaringan komputer</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="card shadow rounded m-3 p-4 d-flex align-items-center h-95">
-                    <img src="image/rpl.jpg" alt="" width="150" height="150">
-                    <div class="card-body border-0 text-center">
-                      <h4>PPLG</h4>
-                      <p>Pengembangan Perangkat Lunak dan Gim</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                    <img src="image/tsm.jpg" alt="" width="150" height="150">
-                    <div class="card-body border-0 text-center">
-                      <h4>TSM</h4>
-                      <p>Teknik Sepeda Motor</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row d-flex justify-content-center">
-                <div class="col-lg-4">
-                  <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                    <img src="image/dkv.jpg" alt="" width="150" height="150">
-                    <div class="card-body  border-0 text-center">
-                      <h4>DKV</h4>
-                      <p>Desain Komunikasi Visual</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="card shadow rounded m-3 p-4 d-flex align-items-center">
-                    <img src="image/toi.jpg" alt="" width="150" height="150">
-                    <div class="card-body text-center border-0 text-center">
-                      <h4>TOI</h4>
-                      <p>Teknik Otomasi Industri</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src="image/kepsek.jpg" alt="Kepala Sekolah" class="img-fluid rounded ">
         </div>
       </div>
-    </section>
-    <!-- TUTUP SECTION JURUSAN -->
 
-    <!-- SECTION BERITA -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-         <h3 class="mb-0">Berita</h3>
-          <h3 class="text-primary">Terkini</h3>
-          <p>Berita terbaru, cerita inspiratif dan informasi terkini seputar kegiatan serta prestasi sekolah kami.</p>
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-header">
-                  <img src="image/foto1.jpg" alt="" width="385" height="200">
-                </div>
-                <div class="card-body">
-                  <h3>PELATIHAN SEFETY RIDING SMKN4 TASIKMALAYA</h3>
-                  <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://www.pikiran-rakyat.com/otomotif/pr-018109177/honda-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-ciptakan-bibit-keselamatan-di-jawa-barat">Baca
-                    selengkapnya</a>
-                </div>
+      <!-- Teks SAMBUTAN -->
+      <div class="col-md-8 mt-4 mt-md-0">
+        <h4 class="fw-bold">Kurniawan S.Pd, M.Pd</h4>
+        <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
+        <p>
+          Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya.
+          Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini.
+          Kami berharap dengan adanya website di SMK Negeri 4 Tasikmalaya ini para pengunjung dapat mengenal lebih jauh
+          tentang sekolah kami sehingga dapat mempererat tali silaturahmi antara sekolah dengan masyarakat demi kemajuan kita bersama.
+        </p>
+        <p>
+          Tiada gading yang tak retak, website kami ini masih dalam proses pengembangan, masih banyak kekurangan yang harus kami perbaiki.
+          Kritik dan sarannya yang membangun sangat kami harapkan untuk pengembangan ke depan.
+        </p>
+        <p>
+          Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak yang tidak dapat disebutkan satu
+          persatu atas fasilitasnya yang telah diberikan semoga semua yang kita lakukan bermanfaat bagi masyarakat.
+        </p>
+        <p>Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
+      </div>
+
+    </div>
+  </div>
+  <!-- TUTUP SAMBUTAN -->
+
+  <!-- SECTION JURUSAN -->
+  <?php include 'jurusan.php'; ?>
+  <!-- TUTUP SECTION JURUSAN -->
+
+  <!-- SECTION BERITA -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="mb-0">Berita</h3>
+        <h3 class="text-primary">Terkini</h3>
+        <p>Berita terbaru, cerita inspiratif dan informasi terkini seputar kegiatan serta prestasi sekolah kami.</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <img src="image/foto1.jpg" alt="" width="385" height="200">
               </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-header">
-                  <img src="image/foto2.jpg" alt="" width="385" height="200">
-                </div>
-                <div class="card-body">
-                  <h3>Koneksikan Iduka dengan Pencari Kerja</h3>
-                  <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja/#google_vignette">Baca
-                    selengkapnya</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-header">
-                  <img src="image/expo.jpg" alt="" width="385" height="200">
-                </div>
-                <div class="card-body">
-                  <h3> Expo Creanova SMKN 4 Tasikmalaya </h3>
-                  <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/#google_vignette">Baca
-                    selengkapnya</a>
-                </div>
+              <div class="card-body">
+                <h3>PELATIHAN SEFETY RIDING SMKN4 TASIKMALAYA</h3>
+                <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://www.pikiran-rakyat.com/otomotif/pr-018109177/honda-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-ciptakan-bibit-keselamatan-di-jawa-barat">Baca
+                  selengkapnya</a>
               </div>
             </div>
           </div>
-          <br>
-          <!-- TUTUP SECTION BERITA -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <img src="image/foto2.jpg" alt="" width="385" height="200">
+              </div>
+              <div class="card-body">
+                <h3>Koneksikan Iduka dengan Pencari Kerja</h3>
+                <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja/#google_vignette">Baca
+                  selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <img src="image/expo.jpg" alt="" width="385" height="200">
+              </div>
+              <div class="card-body">
+                <h3> Expo Creanova SMKN 4 Tasikmalaya </h3>
+                <a class="btn btn- text-white" style="background-color: rgb(15, 102, 136);" href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/#google_vignette">Baca
+                  selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <!-- TUTUP SECTION BERITA -->
 
-            <?php include 'footer.php';?>
+        <?php include 'footer.php'; ?>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
