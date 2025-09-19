@@ -34,15 +34,15 @@
       <div class="carousel-item" data-bs-interval="2000">
         <img src="image/foto7.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h5></h5>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="image/foto7.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h5></h5>
+          <p></p>
         </div>
       </div>
     </div>
@@ -103,22 +103,56 @@
   </div>
   <!-- TUTUP SECTION STATISTIK -->
 
+<!-- SECTION SAMBUTAN -->
+<style>
+  .glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+  }
 
-  <!-- SECTION SAMBUTAN -->
-  <div class="container my-5">
-    <div class="row g-4 align-items-center ">
+  .glass-card h3,
+  .glass-card h4,
+  .glass-card p {
+    color: #fff;
+  }
 
-      <!-- FOTO KEPALA SEKOLAH-->
-      <h3 class="fw-bold">Sambutan <br><span class="text-primary">Kepala Sekolah</span></h3>
+  .kepsek-img-container {
+    background-color: rgba(15, 102, 136, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .kepsek-img {
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+</style>
+
+<div class="container my-5">
+  <div class="glass-card">
+    <div class="row g-4 align-items-center">
+
+      <!-- JUDUL -->
+      <div class="col-12">
+        <h3 class="fw-bold mb-4">Sambutan <br><span class="text-white">Kepala Sekolah</span></h3>
+      </div>
+
+      <!-- FOTO KEPALA SEKOLAH -->
       <div class="col-md-3 text-center">
-        <div class="p-3 rounded shadow" style="background-color: rgb(15, 102, 136);" href="#">
-          <img src="image/kepsek.jpg" alt="Kepala Sekolah" class="img-fluid rounded ">
+        <div class="kepsek-img-container">
+          <img src="image/kepsek.jpg" alt="Kepala Sekolah" class="img-fluid kepsek-img">
         </div>
-    </div>
-     
-    
-      <!-- Teks SAMBUTAN -->
-      <div class="col-md-8 mt-4 mt-md-0">
+      </div>
+
+      <!-- TEKS SAMBUTAN -->
+      <div class="col-md-9">
         <h4 class="fw-bold">Kurniawan S.Pd, M.Pd</h4>
         <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
         <p>
@@ -137,11 +171,12 @@
         </p>
         <p>Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
       </div>
-
+      
     </div>
   </div>
-  <!-- TUTUP SAMBUTAN -->
+</div>
 
+  
   <!-- SECTION JURUSAN -->
   <?php include 'jurusan.php'; ?>
   <!-- TUTUP SECTION JURUSAN -->
